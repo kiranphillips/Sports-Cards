@@ -6,16 +6,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
- 
-    
   }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-
 
 .text-wrap {
   word-wrap: break-word;
@@ -34,4 +30,11 @@ code {
 
 .ui.grid {
   padding: 0px 20px;
+  border-style: dashed ;
+}
+
+#header {
+  width: 200px;
+  padding: 0px 10px;
+  border-style: double
 }
