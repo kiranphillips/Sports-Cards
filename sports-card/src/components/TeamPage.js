@@ -1,24 +1,33 @@
-import React, {useEffect, useState} from "react";
+import React, { useState } from "react";
+import YourTeams from "./YourTeams"
 import TeamCollection from "./TeamCollection";
 
 
 function TeamPage() {
-    const [teams, setTeam] = useState([])
+    const [teams, setTeam] = useState([]);
+    const [myTeams, setMyTeams] = useState([]);
 
-    useEffect(() => { 
-        fetch('https://www.balldontlie.io/api/v1/teams')
-            .then(response => response.json())
-            .then(response => setTeam(response.data))
-            .catch(err => console.error(err));
-        }, [])
+        function showStats(teamClicked) {
+            const isInList = myTeams.some((team) => team.id === teamClicked.id);
+            if (!isInList) {
+                setMyTeams((currentTeams) => [...currentTeams, teamClicked]);
+            }
 
-        console.log(teams)
-
-
+        }
+        function removeFromMyTeams(teamToRemove) {
+            setMyTeams((currentTeams) => currentTeams.filter((team) => team.id !== teamToRemove));
+        }
         return (
             <div>
-               <TeamCollection
-               teams={teams} 
+                <YourTeams 
+                    myTeams={myTeams}
+                    removeFromMyTeams={removeFromMyTeams}
+
+                />
+                <TeamCollection
+                    teams={teams} 
+                    setTeam={setTeam}
+                    showStats={showStats}
              />
             </div>
           )

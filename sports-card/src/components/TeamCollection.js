@@ -1,16 +1,18 @@
 import React, {useEffect} from "react";
 import TeamCard from "./TeamCard"; 
 
-
-  function TeamCollection({teams, setTeams, showStats}){
-
-    console.log(teams)
+  function TeamCollection({teams, setTeam, showStats}){
+    useEffect(() => { 
+      fetch('https://www.balldontlie.io/api/v1/teams')
+          .then(response => response.json())
+          .then(response => setTeam(response.data))
+      }, [setTeam])
   
   const teamInfo= teams.map((team)=>
   <TeamCard 
-  key={team.id}
-  team={team}
-  onTeamsClicked={showStats}
+    key={team.id}
+    team={team}
+    onTeamClicked={showStats}
   />
 )
   
@@ -18,7 +20,7 @@ import TeamCard from "./TeamCard";
       <div className="ui four column grid">
         <div id="header">
         {teamInfo}
-        Collection of all teams
+        Collection of all Teams
         </div>
       </div>
     );

@@ -1,6 +1,6 @@
 import React from "react";
 
-function TeamCard({ team,onTeamClicked }) {
+function TeamCard({ team, onTeamClicked }) {
     const {id, city, full_name: fullName, name} = team
     
   
@@ -12,7 +12,7 @@ function TeamCard({ team,onTeamClicked }) {
           onClick={() => onTeamClicked(team)}
         >
           <div className="image">
-            <img alt="nba!" src={"https://cdn.iconscout.com/icon/free/png-256/nba-282876.png"} />
+            {/* <img alt="nba!" src={"https://cdn.iconscout.com/icon/free/png-256/nba-282876.png"} /> */}
           </div>
           <div className="content">
     
