@@ -3,21 +3,22 @@ import TeamCollection from "./TeamCollection";
 
 
 function TeamPage() {
-    const [team, setTeam] = useState([])
+    const [teams, setTeam] = useState([])
 
     useEffect(() => { 
-        fetch('https://balldontlie.io/api/v1/teams')
+        fetch('https://www.balldontlie.io/api/v1/teams')
             .then(response => response.json())
-            .then(response => setTeam(response))
+            .then(response => setTeam(response.data))
             .catch(err => console.error(err));
         }, [])
+
+        console.log(teams)
 
 
         return (
             <div>
                <TeamCollection
-               key={team.data}
-               team={team} 
+               teams={teams} 
              />
             </div>
           )

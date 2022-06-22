@@ -1,15 +1,11 @@
 import React, {useEffect} from "react";
-import TeamCard from "./components/TeamCard";
+import TeamCard from "./TeamCard"; 
 
 
   function TeamCollection({teams, setTeams, showStats}){
-    useEffect(() => {
-        fetch("https://balldontlie.io/api/v1/teams")
-          .then((res)=> res.json())
-          .then((data)=> setTeams(data))
-    },[setTeams])
 
-
+    console.log(teams)
+  
   const teamInfo= teams.map((team)=>
   <TeamCard 
   key={team.id}
