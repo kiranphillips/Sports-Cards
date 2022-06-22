@@ -1,7 +1,9 @@
 import React from 'react';
 // import './App.css';
 import TeamPage from './TeamPage';
+
 import PlayerPage from './PlayerPage';
+
 
 function App() {
 
@@ -9,6 +11,7 @@ function App() {
     <div className="App">
       <TeamPage />
       <PlayerPage />
+
     </div>
   );
 }
