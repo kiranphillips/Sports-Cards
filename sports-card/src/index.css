@@ -1,14 +1,31 @@
 body {
   margin: 0;
   padding: 0;
+<<<<<<< HEAD
   font-family: sans-serif;
 }
+=======
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  }
+>>>>>>> main
 
 .text-wrap {
   word-wrap: break-word;
 }
 
+<<<<<<< HEAD
 .bot-army {
+=======
+.text-wrap {
+  word-wrap: break-word;
+}
+
+.team-list {
+>>>>>>> main
   overflow-x: scroll;
   min-height: 300px;
   max-width: 100%;
@@ -21,4 +38,14 @@ body {
 
 .ui.grid {
   padding: 0px 20px;
+<<<<<<< HEAD
+=======
+  border-style: dashed ;
+}
+
+#header {
+  width: 200px;
+  padding: 0px 10px;
+  border-style: double
+>>>>>>> main
 }
