@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div className="App">
-      < TeamPage />
+      <TeamPage />
       <PlayerPage />
     </div>
   );

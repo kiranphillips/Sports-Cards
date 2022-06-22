@@ -17,11 +17,10 @@ return (
           </div>
           <div className="extra content">
           <span>
-            <i className="icon heartbeat" />
+            <i className="icon basketball ball" />
             {position}
           </span>
           <span>
-            <i className="icon lightning" />
             {height_feet} ' {height_inches}
           </span>
           </div>
