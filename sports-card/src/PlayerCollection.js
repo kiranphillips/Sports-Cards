@@ -7,7 +7,7 @@ function PlayerCollection( {players} ) {
 
   
     const renderPlayers = players.map((player) => {
-      return  console.log(player.id)
+      return  console.log(player)
       // <PlayerCard
       // key={player.id}
       // player={player}
