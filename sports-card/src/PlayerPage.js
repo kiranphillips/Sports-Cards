@@ -10,11 +10,10 @@ function PlayerPage() {
   
         fetch('https://www.balldontlie.io/api/v1/players')
             .then(response => response.json())
-            .then(response => setPlayers(response))
-            .catch(err => console.error(err));
+            .then(response => setPlayers(response.data))
+            // .catch(err => console.error(err));
         }, [])
 
-        console.log(players)
 
         return (
             <div>

@@ -3,8 +3,10 @@ import PlayerCard from "./PlayerCard";
 
 function PlayerCollection( {players} ) {
 
-  console.log(players)
+if (players === undefined) 
+return null
 
+// console.log(players)
   
     const renderPlayers = players.map((player) => {
       return  console.log(player)
