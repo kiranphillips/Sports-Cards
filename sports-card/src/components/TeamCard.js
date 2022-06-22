@@ -1,6 +1,6 @@
 import React from "react";
 
-function TeamCard({ team,onTeamClicked }) {
+function TeamCard({ team, onTeamClicked }) {
     const {id, city, full_name: fullName, name} = team
     
   
