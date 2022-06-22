@@ -8,10 +8,32 @@ body {
   -moz-osx-font-smoothing: grayscale;
   }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.text-wrap {
+  word-wrap: break-word;
 }
+
+.text-wrap {
+  word-wrap: break-word;
+}
+
+.team-list {
+  overflow-x: scroll;
+  min-height: 300px;
+  max-width: 100%;
+}
+
+.ui.grid > .row.bot-army-row {
+  flex-wrap: nowrap;
+  min-height: 100%;
+}
+
+
+.ui.grid {
+  padding: 0px 20px;
+  border-style: dashed ;
+}
+
 
 .text-wrap {
   word-wrap: break-word;
