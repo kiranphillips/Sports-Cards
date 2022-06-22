@@ -11,7 +11,7 @@ function YourTeams({ myTeams, removeFromMyTeams}) {
     />
   ))
   return (
-    <div className="ui segment inverted olive bot-army">
+    <div className="ui segment inverted bot-army">
       <div className="ui five column grid">
         <div className="row bot-army-row">
           {renderTeams}
