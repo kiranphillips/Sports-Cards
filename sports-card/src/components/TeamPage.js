@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from "react";
 import TeamCollection from "./TeamCollection";
-
+import PlayerForm from "./PlayerForm";
 
 function TeamPage( {players} ) {
     const [teams, setTeam] = useState([])
@@ -16,9 +16,10 @@ function TeamPage( {players} ) {
 
         return (
             <div>
-               <TeamCollection
-               teams={teams} 
-             />
+                <PlayerForm />
+                <TeamCollection
+                teams={teams} 
+                />
             </div>
           )
         
