@@ -1,9 +1,8 @@
 import React from "react";
 
-function PlayerCard({ player }) {
-    const {id, first_name} = player
+function TeamCard({ team }) {
+    const {id, abbreviation, city, conference, division, full_name: fullName, name} = team
     
-    console.log(player)
   
 return (
     <div className="ui column">  
@@ -13,7 +12,7 @@ return (
         >
         <div className="content">
           <div className="header">
-            {first_name}
+            {fullName}
           </div>
         </div>
       </div>
@@ -21,4 +20,4 @@ return (
   );
 }
 
-export default PlayerCard;
+export default TeamCard;
