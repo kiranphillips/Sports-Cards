@@ -6,14 +6,12 @@ function PlayerCollection( {players} ) {
 if (players === undefined) 
 return null
 
-// console.log(players)
   
     const renderPlayers = players.map((player) => {
-      return  console.log(player)
-      // <PlayerCard
-      // key={player.id}
-      // player={player}
-      // />)
+      return ( <PlayerCard
+      key={player.id}
+      player={player}
+      />)
     });
   
     return (
