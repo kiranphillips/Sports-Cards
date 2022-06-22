@@ -1,4 +1,5 @@
 body {
+  background-image: url("https://d2gg9evh47fn9z.cloudfront.net/1600px_COLOURBOX8770548.jpg");
   margin: 0;
   padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -52,7 +53,7 @@ body {
 
 .ui.grid {
   padding: 0px 20px;
-  border-style: dashed ;
+  border-style: solid ;
 }
 
 #header {

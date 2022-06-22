@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import YourTeams from "./YourTeams"
 import TeamCollection from "./TeamCollection";
+import PlayerForm from "./PlayerForm";
+
 
 
 function TeamPage() {
@@ -29,6 +31,7 @@ function TeamPage() {
                     setTeam={setTeam}
                     showStats={showStats}
              />
+
             </div>
           )
         

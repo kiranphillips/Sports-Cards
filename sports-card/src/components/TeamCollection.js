@@ -18,9 +18,8 @@ import TeamCard from "./TeamCard";
   
     return (
       <div className="ui four column grid">
-        <div id="header">
+        <div className="row" id="header">
         {teamInfo}
-        Collection of all Teams
         </div>
       </div>
     );
