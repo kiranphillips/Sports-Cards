@@ -5,8 +5,16 @@ import TeamCard from "./TeamCard";
     useEffect(() => { 
       fetch('https://www.balldontlie.io/api/v1/teams')
           .then(response => response.json())
-          .then(response => setTeam(response.data))
+          .then(response => setTeam(response.data)) 
       }, [setTeam])
+
+      useEffect(() => { 
+          fetch("http://localhost:3000/data")
+          .then(response => response.json())
+          .then(response => (response))
+      },[])
+
+      
   
   const teamInfo= teams.map((team)=>
   <TeamCard 

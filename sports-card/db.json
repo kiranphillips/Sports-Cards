@@ -7,7 +7,9 @@
             "conference": "East",
             "division": "Southeast",
             "full_name": "Atlanta Hawks",
-            "name": "Hawks"
+            "name": "Hawks",
+            "img": "https://static.wixstatic.com/media/cf2a9f_3c9a885748d64cfdb500ed6cc51b37b2~mv2.gif"
+        
         },
         {
             "id": 2,
@@ -16,7 +18,8 @@
             "conference": "East",
             "division": "Atlantic",
             "full_name": "Boston Celtics",
-            "name": "Celtics"
+            "name": "Celtics",
+            "img": "Sports-Cards/sports-card/ProjectLogos/Boston-Celtics.jpg"
         },
         {
             "id": 3,
@@ -25,7 +28,8 @@
             "conference": "East",
             "division": "Atlantic",
             "full_name": "Brooklyn Nets",
-            "name": "Nets"
+            "name": "Nets",
+            "img": "Sports-Cards/sports-card/ProjectLogos/Brooklyn-Nets.jpg"
         },
         {
             "id": 4,
@@ -34,7 +38,8 @@
             "conference": "East",
             "division": "Southeast",
             "full_name": "Charlotte Hornets",
-            "name": "Hornets"
+            "name": "Hornets",
+            "img": ""
         },
         {
             "id": 5,
@@ -43,7 +48,8 @@
             "conference": "East",
             "division": "Central",
             "full_name": "Chicago Bulls",
-            "name": "Bulls"
+            "name": "Bulls",
+            "img": ""
         },
         {
             "id": 6,
@@ -52,7 +58,8 @@
             "conference": "East",
             "division": "Central",
             "full_name": "Cleveland Cavaliers",
-            "name": "Cavaliers"
+            "name": "Cavaliers",
+            "img": ""
         },
         {
             "id": 7,
@@ -61,7 +68,8 @@
             "conference": "West",
             "division": "Southwest",
             "full_name": "Dallas Mavericks",
-            "name": "Mavericks"
+            "name": "Mavericks",
+            "img": ""
         },
         {
             "id": 8,
@@ -70,7 +78,8 @@
             "conference": "West",
             "division": "Northwest",
             "full_name": "Denver Nuggets",
-            "name": "Nuggets"
+            "name": "Nuggets",
+            "img": ""
         },
         {
             "id": 9,
@@ -79,7 +88,8 @@
             "conference": "East",
             "division": "Central",
             "full_name": "Detroit Pistons",
-            "name": "Pistons"
+            "name": "Pistons",
+            "img": ""
         },
         {
             "id": 10,
@@ -88,7 +98,8 @@
             "conference": "West",
             "division": "Pacific",
             "full_name": "Golden State Warriors",
-            "name": "Warriors"
+            "name": "Warriors",
+            "img": ""
         },
         {
             "id": 11,
@@ -97,7 +108,8 @@
             "conference": "West",
             "division": "Southwest",
             "full_name": "Houston Rockets",
-            "name": "Rockets"
+            "name": "Rockets",
+            "img": ""
         },
         {
             "id": 12,
@@ -106,7 +118,8 @@
             "conference": "East",
             "division": "Central",
             "full_name": "Indiana Pacers",
-            "name": "Pacers"
+            "name": "Pacers",
+            "img": ""
         },
         {
             "id": 13,
@@ -115,7 +128,8 @@
             "conference": "West",
             "division": "Pacific",
             "full_name": "LA Clippers",
-            "name": "Clippers"
+            "name": "Clippers",
+            "img": ""
         },
         {
             "id": 14,
@@ -124,7 +138,8 @@
             "conference": "West",
             "division": "Pacific",
             "full_name": "Los Angeles Lakers",
-            "name": "Lakers"
+            "name": "Lakers",
+            "img": ""
         },
         {
             "id": 15,
@@ -133,7 +148,8 @@
             "conference": "West",
             "division": "Southwest",
             "full_name": "Memphis Grizzlies",
-            "name": "Grizzlies"
+            "name": "Grizzlies",
+            "img": ""
         },
         {
             "id": 16,
@@ -142,7 +158,8 @@
             "conference": "East",
             "division": "Southeast",
             "full_name": "Miami Heat",
-            "name": "Heat"
+            "name": "Heat",
+            "img": ""
         },
         {
             "id": 17,
@@ -151,7 +168,8 @@
             "conference": "East",
             "division": "Central",
             "full_name": "Milwaukee Bucks",
-            "name": "Bucks"
+            "name": "Bucks",
+            "img": ""
         },
         {
             "id": 18,
@@ -160,7 +178,8 @@
             "conference": "West",
             "division": "Northwest",
             "full_name": "Minnesota Timberwolves",
-            "name": "Timberwolves"
+            "name": "Timberwolves",
+            "img": ""
         },
         {
             "id": 19,
@@ -169,7 +188,8 @@
             "conference": "West",
             "division": "Southwest",
             "full_name": "New Orleans Pelicans",
-            "name": "Pelicans"
+            "name": "Pelicans",
+            "img": ""
         },
         {
             "id": 20,
@@ -178,7 +198,8 @@
             "conference": "East",
             "division": "Atlantic",
             "full_name": "New York Knicks",
-            "name": "Knicks"
+            "name": "Knicks",
+            "img": ""
         },
         {
             "id": 21,
@@ -187,7 +208,8 @@
             "conference": "West",
             "division": "Northwest",
             "full_name": "Oklahoma City Thunder",
-            "name": "Thunder"
+            "name": "Thunder",
+            "img": ""
         },
         {
             "id": 22,
@@ -196,7 +218,8 @@
             "conference": "East",
             "division": "Southeast",
             "full_name": "Orlando Magic",
-            "name": "Magic"
+            "name": "Magic",
+            "img": ""
         },
         {
             "id": 23,
@@ -205,7 +228,8 @@
             "conference": "East",
             "division": "Atlantic",
             "full_name": "Philadelphia 76ers",
-            "name": "76ers"
+            "name": "76ers",
+            "img": ""
         },
         {
             "id": 24,
@@ -214,7 +238,8 @@
             "conference": "West",
             "division": "Pacific",
             "full_name": "Phoenix Suns",
-            "name": "Suns"
+            "name": "Suns",
+            "img": ""
         },
         {
             "id": 25,
@@ -223,7 +248,8 @@
             "conference": "West",
             "division": "Northwest",
             "full_name": "Portland Trail Blazers",
-            "name": "Trail Blazers"
+            "name": "Trail Blazers",
+            "img": ""
         },
         {
             "id": 26,
@@ -232,7 +258,8 @@
             "conference": "West",
             "division": "Pacific",
             "full_name": "Sacramento Kings",
-            "name": "Kings"
+            "name": "Kings",
+            "img": ""
         },
         {
             "id": 27,
@@ -241,7 +268,8 @@
             "conference": "West",
             "division": "Southwest",
             "full_name": "San Antonio Spurs",
-            "name": "Spurs"
+            "name": "Spurs",
+            "img": ""
         },
         {
             "id": 28,
@@ -250,7 +278,8 @@
             "conference": "East",
             "division": "Atlantic",
             "full_name": "Toronto Raptors",
-            "name": "Raptors"
+            "name": "Raptors",
+            "img": ""
         },
         {
             "id": 29,
@@ -259,7 +288,8 @@
             "conference": "West",
             "division": "Northwest",
             "full_name": "Utah Jazz",
-            "name": "Jazz"
+            "name": "Jazz",
+            "img": ""
         },
         {
             "id": 30,
@@ -268,7 +298,8 @@
             "conference": "East",
             "division": "Southeast",
             "full_name": "Washington Wizards",
-            "name": "Wizards"
+            "name": "Wizards",
+            "img": ""
         }
     ],
     "meta": {
