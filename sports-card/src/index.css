@@ -24,23 +24,17 @@ body {
   max-width: 100%;
 }
 
-.ui.grid > .row.bot-army-row {
-  flex-wrap: nowrap;
-  min-height: 100%;
-}
-
-
-.ui.grid {
-  padding: 0px 20px;
-  border-style: dashed ;
-}
-
-
 .text-wrap {
   word-wrap: break-word;
 }
 
 .team-list {
+  overflow-x: scroll;
+  min-height: 300px;
+  max-width: 100%;
+}
+
+.bot-army {
   overflow-x: scroll;
   min-height: 300px;
   max-width: 100%;
@@ -60,4 +54,23 @@ body {
   width: 200px;
   padding: 0px 10px;
   border-style: double
+}
+
+.new-plant-form {
+  padding: 2rem 1rem;
+  margin: 2rem 0;
+}
+
+.new-plant-form form {
+  display: flex;
+  justify-content: center;
+}
+
+.new-plant-form input {
+  margin-right: 2rem;
+  flex: 1;
+}
+
+.new-plant-form button {
+  width: 150px;
 }

@@ -1,7 +1,7 @@
 import React from "react";
 
 function PlayerCard({ player }) {
-    const {id, first_name, last_name, position, height_feet, height_inches} = player
+    const {id, first_name, last_name, position, team} = player
     
     // console.log(player)
   
@@ -21,7 +21,7 @@ return (
             {position}
           </span>
           <span>
-            {height_feet} ' {height_inches}
+            {team}
           </span>
           </div>
         </div>
