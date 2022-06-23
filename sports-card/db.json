@@ -8,7 +8,7 @@
             "division": "Southeast",
             "full_name": "Atlanta Hawks",
             "name": "Hawks",
-            "img": "https://static.wixstatic.com/media/cf2a9f_3c9a885748d64cfdb500ed6cc51b37b2~mv2.gif"
+            "img": "https://en.wikipedia.org/wiki/Atlanta_Hawks"
         
         },
         {
@@ -19,7 +19,7 @@
             "division": "Atlantic",
             "full_name": "Boston Celtics",
             "name": "Celtics",
-            "img": "Sports-Cards/sports-card/ProjectLogos/Boston-Celtics.jpg"
+            "img": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/Boston_Celtics.svg/1200px-Boston_Celtics.svg.png"
         },
         {
             "id": 3,
@@ -29,7 +29,7 @@
             "division": "Atlantic",
             "full_name": "Brooklyn Nets",
             "name": "Nets",
-            "img": "Sports-Cards/sports-card/ProjectLogos/Brooklyn-Nets.jpg"
+            "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Brooklyn_Nets_newlogo.svg/1200px-Brooklyn_Nets_newlogo.svg.png"
         },
         {
             "id": 4,
@@ -39,7 +39,7 @@
             "division": "Southeast",
             "full_name": "Charlotte Hornets",
             "name": "Hornets",
-            "img": ""
+            "img": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c4/Charlotte_Hornets_%282014%29.svg/1200px-Charlotte_Hornets_%282014%29.svg.png"
         },
         {
             "id": 5,
@@ -49,7 +49,7 @@
             "division": "Central",
             "full_name": "Chicago Bulls",
             "name": "Bulls",
-            "img": ""
+            "img": "https://upload.wikimedia.org/wikipedia/en/thumb/6/67/Chicago_Bulls_logo.svg/1200px-Chicago_Bulls_logo.svg.png"
         },
         {
             "id": 6,
@@ -69,7 +69,7 @@
             "division": "Southwest",
             "full_name": "Dallas Mavericks",
             "name": "Mavericks",
-            "img": ""
+            "img": "https://upload.wikimedia.org/wikipedia/en/thumb/9/97/Dallas_Mavericks_logo.svg/1200px-Dallas_Mavericks_logo.svg.png"
         },
         {
             "id": 8,
@@ -79,7 +79,7 @@
             "division": "Northwest",
             "full_name": "Denver Nuggets",
             "name": "Nuggets",
-            "img": ""
+            "img": "https://upload.wikimedia.org/wikipedia/en/thumb/7/76/Denver_Nuggets.svg/1200px-Denver_Nuggets.svg.png"
         },
         {
             "id": 9,
@@ -89,7 +89,7 @@
             "division": "Central",
             "full_name": "Detroit Pistons",
             "name": "Pistons",
-            "img": ""
+            "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Pistons_logo17.svg/1200px-Pistons_logo17.svg.png"
         },
         {
             "id": 10,
@@ -99,7 +99,7 @@
             "division": "Pacific",
             "full_name": "Golden State Warriors",
             "name": "Warriors",
-            "img": ""
+            "img": "https://upload.wikimedia.org/wikipedia/en/thumb/0/01/Golden_State_Warriors_logo.svg/1200px-Golden_State_Warriors_logo.svg.png"
         },
         {
             "id": 11,
@@ -109,7 +109,7 @@
             "division": "Southwest",
             "full_name": "Houston Rockets",
             "name": "Rockets",
-            "img": ""
+            "img": "https://upload.wikimedia.org/wikipedia/en/thumb/2/28/Houston_Rockets.svg/1200px-Houston_Rockets.svg.png"
         },
         {
             "id": 12,
@@ -129,7 +129,7 @@
             "division": "Pacific",
             "full_name": "LA Clippers",
             "name": "Clippers",
-            "img": ""
+            "img": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Los_Angeles_Clippers_%282015%29.svg/1200px-Los_Angeles_Clippers_%282015%29.svg.png"
         },
         {
             "id": 14,
@@ -139,7 +139,7 @@
             "division": "Pacific",
             "full_name": "Los Angeles Lakers",
             "name": "Lakers",
-            "img": ""
+            "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Los_Angeles_Lakers_logo.svg/1200px-Los_Angeles_Lakers_logo.svg.png"
         },
         {
             "id": 15,
@@ -149,7 +149,7 @@
             "division": "Southwest",
             "full_name": "Memphis Grizzlies",
             "name": "Grizzlies",
-            "img": ""
+            "img": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/Memphis_Grizzlies.svg/1200px-Memphis_Grizzlies.svg.png"
         },
         {
             "id": 16,
@@ -159,7 +159,7 @@
             "division": "Southeast",
             "full_name": "Miami Heat",
             "name": "Heat",
-            "img": ""
+            "img": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fb/Miami_Heat_logo.svg/1200px-Miami_Heat_logo.svg.png"
         },
         {
             "id": 17,
@@ -169,7 +169,7 @@
             "division": "Central",
             "full_name": "Milwaukee Bucks",
             "name": "Bucks",
-            "img": ""
+            "img": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Milwaukee_Bucks_logo.svg/1200px-Milwaukee_Bucks_logo.svg.png"
         },
         {
             "id": 18,
@@ -179,7 +179,7 @@
             "division": "Northwest",
             "full_name": "Minnesota Timberwolves",
             "name": "Timberwolves",
-            "img": ""
+            "img": "https://upload.wikimedia.org/wikipedia/en/c/c2/Minnesota_Timberwolves_logo.svg"
         },
         {
             "id": 19,
@@ -189,7 +189,7 @@
             "division": "Southwest",
             "full_name": "New Orleans Pelicans",
             "name": "Pelicans",
-            "img": ""
+            "img": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0d/New_Orleans_Pelicans_logo.svg/1200px-New_Orleans_Pelicans_logo.svg.png"
         },
         {
             "id": 20,
@@ -199,7 +199,7 @@
             "division": "Atlantic",
             "full_name": "New York Knicks",
             "name": "Knicks",
-            "img": ""
+            "img": "https://upload.wikimedia.org/wikipedia/en/thumb/2/25/New_York_Knicks_logo.svg/1200px-New_York_Knicks_logo.svg.png"
         },
         {
             "id": 21,
@@ -209,7 +209,7 @@
             "division": "Northwest",
             "full_name": "Oklahoma City Thunder",
             "name": "Thunder",
-            "img": ""
+            "img": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5d/Oklahoma_City_Thunder.svg/1200px-Oklahoma_City_Thunder.svg.png"
         },
         {
             "id": 22,
@@ -219,7 +219,7 @@
             "division": "Southeast",
             "full_name": "Orlando Magic",
             "name": "Magic",
-            "img": ""
+            "img": "https://upload.wikimedia.org/wikipedia/en/thumb/1/10/Orlando_Magic_logo.svg/1200px-Orlando_Magic_logo.svg.png"
         },
         {
             "id": 23,
@@ -229,7 +229,7 @@
             "division": "Atlantic",
             "full_name": "Philadelphia 76ers",
             "name": "76ers",
-            "img": ""
+            "img": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0e/Philadelphia_76ers_logo.svg/1200px-Philadelphia_76ers_logo.svg.png"
         },
         {
             "id": 24,
@@ -239,7 +239,7 @@
             "division": "Pacific",
             "full_name": "Phoenix Suns",
             "name": "Suns",
-            "img": ""
+            "img": "https://upload.wikimedia.org/wikipedia/en/thumb/d/dc/Phoenix_Suns_logo.svg/1200px-Phoenix_Suns_logo.svg.png"
         },
         {
             "id": 25,
@@ -249,7 +249,7 @@
             "division": "Northwest",
             "full_name": "Portland Trail Blazers",
             "name": "Trail Blazers",
-            "img": ""
+            "img": "https://upload.wikimedia.org/wikipedia/en/thumb/2/21/Portland_Trail_Blazers_logo.svg/1200px-Portland_Trail_Blazers_logo.svg.png"
         },
         {
             "id": 26,
@@ -259,7 +259,7 @@
             "division": "Pacific",
             "full_name": "Sacramento Kings",
             "name": "Kings",
-            "img": ""
+            "img": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c7/SacramentoKings.svg/1200px-SacramentoKings.svg.png"
         },
         {
             "id": 27,
@@ -269,7 +269,7 @@
             "division": "Southwest",
             "full_name": "San Antonio Spurs",
             "name": "Spurs",
-            "img": ""
+            "img": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a2/San_Antonio_Spurs.svg/1200px-San_Antonio_Spurs.svg.png"
         },
         {
             "id": 28,
@@ -279,7 +279,7 @@
             "division": "Atlantic",
             "full_name": "Toronto Raptors",
             "name": "Raptors",
-            "img": ""
+            "img": "https://upload.wikimedia.org/wikipedia/en/thumb/3/36/Toronto_Raptors_logo.svg/1200px-Toronto_Raptors_logo.svg.png"
         },
         {
             "id": 29,
@@ -299,7 +299,7 @@
             "division": "Southeast",
             "full_name": "Washington Wizards",
             "name": "Wizards",
-            "img": ""
+            "img": "https://upload.wikimedia.org/wikipedia/en/thumb/0/04/Utah_Jazz_logo_%282016%29.svg/1200px-Utah_Jazz_logo_%282016%29.svg.png"
         }
     ],
     "meta": {
