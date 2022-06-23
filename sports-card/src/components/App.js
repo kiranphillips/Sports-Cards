@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Routes, Route} from "react-router-dom";
 import NavBar from "./NavBar";
 import TeamPage from './TeamPage';
-import Header from './Header';
+import HeaderMain from './Header';
 import About from './About';
 import Contact from './Contact';
 import Login from './Login';
@@ -15,7 +15,7 @@ function App() {
   return (
     <div>
       <NavBar isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn}/>
-      <Header />
+      <HeaderMain />
       <Routes>
         <Route path="/" element={<TeamPage isLoggedIn={isLoggedIn}/>} />
         <Route path="/.About" element={<About />} />

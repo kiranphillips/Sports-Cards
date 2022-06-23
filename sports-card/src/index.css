@@ -111,3 +111,16 @@ h3 {
 
 }
 
+.navbar {
+    padding:10px;  
+    background-color: rgba(133, 134, 124, 0.608);
+    font-family: Arial, sans serif;
+
+}
+
+.navlink {  
+    padding:10px;  
+    color:white;  
+    text-decoration:none;
+
+}

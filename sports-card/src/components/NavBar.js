@@ -9,13 +9,13 @@ const NavBar = ({isLoggedIn, setIsLoggedIn}) => {
     history("/.Login");
   }
 
-  const renderLogout = isLoggedIn ? <button onClick={handleLogout}> Logout </button> : null
+  const renderLogout = isLoggedIn ? <button className="ui button" onClick={handleLogout}> Logout </button> : null
 
   return (
     <div className="navbar">
-      <NavLink to="/"> Home </NavLink>
-      <NavLink to="/.About"> About </NavLink>
-      <NavLink to="/.Contact"> Contact </NavLink>
+      <NavLink className="navlink" to="/"> Home </NavLink>
+      <NavLink className="navlink" to="/.About"> About </NavLink>
+      <NavLink className="navlink" to="/.Contact"> Contact </NavLink>
       {renderLogout}
     </div>
   );
