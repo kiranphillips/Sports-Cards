@@ -22,6 +22,11 @@ function TeamPage( {isLoggedIn}) {
         // function removeFromMyTeams(teamToRemove) {
         //     setMyTeams((currentTeams) => currentTeams.filter((team) => team.id !== teamToRemove));
         // }
+
+        function handleAddTeam(newTeam) {
+            setTeam([...teams, newTeam]);
+          }
+
         return (
             <div>
                 <YourTeams 
@@ -34,7 +39,7 @@ function TeamPage( {isLoggedIn}) {
                     setTeam={setTeam}
                     showStats={showStats}
              />
-             <PlayerForm />
+             <PlayerForm onAddTeam={handleAddTeam}/>
 
             </div>
           )
