@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import YourTeams from "./YourTeams"
 import TeamCollection from "./TeamCollection";
 import TeamForm from "./TeamForm";
@@ -10,35 +10,39 @@ function TeamPage( {isLoggedIn}) {
     const [teams, setTeam] = useState([]);
     const [myTeams, setMyTeams] = useState([]);
 
-    if(!isLoggedIn) return <Navigate to="/.Login" />
+    useEffect(() => { 
+        fetch('http://localhost:3000/data')
+            .then(response => response.json())
+            .then(response => setTeam(response)) 
+        }, [])
 
-        function showStats(teamClicked) {
+    if(!isLoggedIn) return <Navigate to="/.Login" />
+  
+        function addMyTeam(teamClicked) {
             const isInList = myTeams.some((team) => team.id === teamClicked.id);
             if (!isInList) {
-                setMyTeams((currentTeams) => [teamClicked]);
+                setMyTeams([teamClicked]);
             }
 
         }
-        // function removeFromMyTeams(teamToRemove) {
-        //     setMyTeams((currentTeams) => currentTeams.filter((team) => team.id !== teamToRemove));
-        // }
+        function removeMyTeam(teamToRemove) {
+            setMyTeams((currentTeams) => currentTeams.filter((team) => team.id !== teamToRemove.id));
+        }
 
         function handleAddTeam(newTeam) {
             setTeam([...teams, newTeam]);
           }
 
-
         return (
             <div>
                 <YourTeams 
                     myTeams={myTeams}
-                    // removeFromMyTeams={removeFromMyTeams}
+                    removeMyTeam={removeMyTeam}
 
                 />
                 <TeamCollection
                     teams={teams} 
-                    setTeam={setTeam}
-                    showStats={showStats}
+                    addMyTeam={addMyTeam}
              />
              <TeamForm onAddTeam={handleAddTeam}/>
 
