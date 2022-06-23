@@ -26,7 +26,7 @@ function Login({ setIsLoggedIn }) {
     // })
     //   .then((r) => r.json())
     //   .then((user) => {
-    //     setIsLoggedIn(user);
+        setIsLoggedIn(true);
 
     history("/");
 //   })
