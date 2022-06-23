@@ -1,7 +1,7 @@
 import React from "react";
 
 function TeamCard({ team, onTeamClicked }) {
-    const {id, city, full_name: fullName, name} = team
+    const {id, city, full_name, name} = team
     
   
     return (

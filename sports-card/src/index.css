@@ -46,7 +46,7 @@ body {
 .ui.grid > .row.bot-army-row {
   flex-wrap: nowrap;
   min-height: 100%;
-  color: black
+  color: white
 }
 
 .ui.grid {
@@ -68,9 +68,9 @@ h1 {
   color: white
 }
 
-  border-style: double;
+  /* border-style: double;
   
-}
+} */
 
 .new-plant-form {
   padding: 2rem 1rem;
