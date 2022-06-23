@@ -19,7 +19,9 @@ function App() {
   //         // .catch(err => console.error(err));
   //     }, [])
 
+
   //     console.log(players.team)
+
 
   return (
     <div>

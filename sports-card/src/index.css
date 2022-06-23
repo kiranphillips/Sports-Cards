@@ -34,6 +34,9 @@ body {
   max-width: 100%;
 }
 
+/* this is the top green bar*/
+
+
 .bot-army {
   overflow-x: scroll;
   min-height: 300px;
@@ -43,6 +46,7 @@ body {
 .ui.grid > .row.bot-army-row {
   flex-wrap: nowrap;
   min-height: 100%;
+  color: black
 }
 
 .ui.grid {
@@ -55,6 +59,15 @@ body {
 #header {
   width: 200px;
   padding: 0px 10px;
+  
+
+  border-style: double
+}
+/* top header*/
+h1 {
+  color: white
+}
+
   border-style: double;
   
 }
@@ -84,3 +97,4 @@ body {
   color: white;
 
 }
+
