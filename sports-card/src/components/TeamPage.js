@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import YourTeams from "./YourTeams"
 import TeamCollection from "./TeamCollection";
-import PlayerForm from "./PlayerForm";
+import TeamForm from "./TeamForm";
 import { Navigate } from "react-router-dom";
 
 
@@ -27,6 +27,7 @@ function TeamPage( {isLoggedIn}) {
             setTeam([...teams, newTeam]);
           }
 
+
         return (
             <div>
                 <YourTeams 
@@ -39,7 +40,7 @@ function TeamPage( {isLoggedIn}) {
                     setTeam={setTeam}
                     showStats={showStats}
              />
-             <PlayerForm onAddTeam={handleAddTeam}/>
+             <TeamForm onAddTeam={handleAddTeam}/>
 
             </div>
           )
