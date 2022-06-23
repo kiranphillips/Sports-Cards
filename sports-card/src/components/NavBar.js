@@ -16,7 +16,6 @@ const NavBar = ({isLoggedIn, setIsLoggedIn}) => {
       <NavLink to="/"> Home </NavLink>
       <NavLink to="/.About"> About </NavLink>
       <NavLink to="/.Contact"> Contact </NavLink>
-      {/* <NavLink to="/.Login"> Login </NavLink> */}
       {renderLogout}
     </div>
   );

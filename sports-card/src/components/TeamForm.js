@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import { Form } from "semantic-ui-react";
 
-function PlayerForm({onAddTeam}) {
+function TeamForm({onAddTeam}) {
   const [formData, setFormData] = useState({
     city: "",
     full_name: "",
@@ -62,4 +62,4 @@ function PlayerForm({onAddTeam}) {
   );
 }
 
-export default PlayerForm;
+export default TeamForm;
