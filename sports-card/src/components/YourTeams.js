@@ -1,12 +1,12 @@
 import React from "react";
 import TeamCard from "./TeamCard";
 
-function YourTeams({ myTeams }) {
+function YourTeams({ myTeams, removeMyTeam }) {
   const renderTeams = myTeams.map((team) => (
     <TeamCard  
       key={team.id}
       team={team}
-      // onTeamClicked={removeFromMyTeams}
+      onTeamClicked={removeMyTeam}
     />
   ))
 

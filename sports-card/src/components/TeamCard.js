@@ -2,8 +2,6 @@ import React from "react";
 
 function TeamCard({ team, onTeamClicked }) {
     const {id, city, full_name, name, img} = team
-    
-    console.log(img)
   
     return (
       <div className="ui column">
