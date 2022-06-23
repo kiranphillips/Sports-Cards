@@ -305,6 +305,12 @@
       "full_name": "Tropics",
       "img": "https://cdn1.sportngin.com/attachments/photo/6492/4714/TRPTHNDR_-_Logo.jpg",
       "id": 31
+    },
+    {
+      "city": "Santa Rosa",
+      "full_name": "Panthers",
+      "img": "https://www.santarosahighschool.net/images/panther-paw.png",
+      "id": 32
     }
   ],
   "meta": {

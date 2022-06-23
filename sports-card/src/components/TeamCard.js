@@ -1,7 +1,7 @@
 import React from "react";
 
 function TeamCard({ team, onTeamClicked }) {
-    const {id, city, name, img} = team
+    const {id, city, full_name, name, img} = team
     
     console.log(img)
   
@@ -19,7 +19,7 @@ function TeamCard({ team, onTeamClicked }) {
           </div>
           <div>
             <span>
-              {city} {name}
+              {full_name}
             </span>
             <span>
               <div className="ui center aligned segment basic">
