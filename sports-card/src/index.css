@@ -53,24 +53,32 @@ body {
 #header {
   width: 200px;
   padding: 0px 10px;
-  border-style: double
+  border-style: double;
+  
 }
 
 .new-plant-form {
   padding: 2rem 1rem;
-  margin: 2rem 0;
+  background-color: antiquewhite;
 }
 
 .new-plant-form form {
-  display: flex;
+  display: center;
   justify-content: center;
+  color: antiquewhite;
 }
 
 .new-plant-form input {
-  margin-right: 2rem;
+  margin-right: 10rem;
   flex: 1;
 }
 
 .new-plant-form button {
   width: 150px;
+}
+
+.ui.header {
+
+  color: white;
+
 }
