@@ -11,9 +11,9 @@ function TeamCard({ team, onTeamClicked }) {
           key={id}
           onClick={() => onTeamClicked(team)}
         >
-          {/* <div className="image">
+          <div className="image">
             <img alt="nba!" src={"https://cdn.iconscout.com/icon/free/png-256/nba-282876.png"} />
-          </div> */}
+          </div>
           <div className="content">
           </div>
           <div>
