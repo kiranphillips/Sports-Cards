@@ -9,7 +9,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   }
 
-
 .text-wrap {
   word-wrap: break-word;
 }
@@ -80,9 +79,24 @@ h3 {
 #contacts {
   background-image: url(https://recreation.gmu.edu/wp-content/uploads/2019/10/basketball.jpg);
   background-size: contain;
+}
+
+#login {
+    background-image: url(https://i.cdn.turner.com/nba/nba/clippers/media/8-1024x768.jpg);
+    align-content: center;
+    text-align: center;
+    color: black;
+    padding-top: 500px;
+    padding-bottom: 500px;
+  }
+
+#logincolor {
+  color: black;
+  font-size: 300%;
+}
 
   
-}
+
 
 
 .new-plant-form {

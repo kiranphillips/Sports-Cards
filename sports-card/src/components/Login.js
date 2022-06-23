@@ -33,8 +33,10 @@ function Login({ setIsLoggedIn }) {
 }
 
   return (
+    <div id="login">
     <form onSubmit={handleSubmit}>
-      <h1>Login</h1>
+     
+      <h1 id="logincolor"> Login</h1>
       <input
         type="text"
         name="username"
@@ -50,7 +52,9 @@ function Login({ setIsLoggedIn }) {
       />
       <button type="submit">Login</button>
     </form>
+  </div>
   );
 }
+
 
 export default Login;
