@@ -45,10 +45,11 @@ body {
   min-height: 300px;
   max-width: 100%;
 }
-
+/* this is the top green bar*/
 .ui.grid > .row.bot-army-row {
   flex-wrap: nowrap;
   min-height: 100%;
+  color: black
 }
 
 .ui.grid {
@@ -60,4 +61,8 @@ body {
   width: 200px;
   padding: 0px 10px;
   border-style: double
+}
+/* top header*/
+h1 {
+  color: white
 }

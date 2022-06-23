@@ -12,18 +12,18 @@ function TeamPage() {
         function showStats(teamClicked) {
             const isInList = myTeams.some((team) => team.id === teamClicked.id);
             if (!isInList) {
-                setMyTeams((currentTeams) => [...currentTeams, teamClicked]);
+                setMyTeams((currentTeams) => [teamClicked]);
             }
 
         }
-        function removeFromMyTeams(teamToRemove) {
-            setMyTeams((currentTeams) => currentTeams.filter((team) => team.id !== teamToRemove));
-        }
+        // function removeFromMyTeams(teamToRemove) {
+        //     setMyTeams((currentTeams) => currentTeams.filter((team) => team.id !== teamToRemove));
+        // }
         return (
             <div>
                 <YourTeams 
                     myTeams={myTeams}
-                    removeFromMyTeams={removeFromMyTeams}
+                    // removeFromMyTeams={removeFromMyTeams}
 
                 />
                 <TeamCollection
