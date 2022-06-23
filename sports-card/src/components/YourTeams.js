@@ -9,8 +9,10 @@ function YourTeams({ myTeams }) {
       // onTeamClicked={removeFromMyTeams}
     />
   ))
+
+  
   return (
-    <div className="ui segment inverted olive bot-army">
+    <div className="ui segment inverted white bot-army">
       <div className="ui five column grid">
         <div className="row bot-army-row">
           {renderTeams}

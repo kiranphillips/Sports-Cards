@@ -24,18 +24,6 @@ body {
   max-width: 100%;
 }
 
-.ui.grid > .row.bot-army-row {
-  flex-wrap: nowrap;
-  min-height: 100%;
-}
-
-
-.ui.grid {
-  padding: 0px 20px;
-  border-style: dashed ;
-}
-
-
 .text-wrap {
   word-wrap: break-word;
 }
@@ -45,7 +33,16 @@ body {
   min-height: 300px;
   max-width: 100%;
 }
+
 /* this is the top green bar*/
+
+
+.bot-army {
+  overflow-x: scroll;
+  min-height: 300px;
+  max-width: 100%;
+}
+
 .ui.grid > .row.bot-army-row {
   flex-wrap: nowrap;
   min-height: 100%;
@@ -55,14 +52,49 @@ body {
 .ui.grid {
   padding: 0px 20px;
   border-style: solid ;
+  border-color: orange;
 }
+
 
 #header {
   width: 200px;
   padding: 0px 10px;
+  
+
   border-style: double
 }
 /* top header*/
 h1 {
   color: white
 }
+
+  border-style: double;
+  
+}
+
+.new-plant-form {
+  padding: 2rem 1rem;
+  background-color: antiquewhite;
+}
+
+.new-plant-form form {
+  display: center;
+  justify-content: center;
+  color: antiquewhite;
+}
+
+.new-plant-form input {
+  margin-right: 10rem;
+  flex: 1;
+}
+
+.new-plant-form button {
+  width: 150px;
+}
+
+.ui.header {
+
+  color: white;
+
+}
+

@@ -3,7 +3,7 @@ import { Form } from "semantic-ui-react";
 
 function PlayerForm() {
   return (
-    <div>
+    <div className="new-plant-form">
       <h3>Add a Player!</h3>
       <Form
         onSubmit={() => {

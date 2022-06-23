@@ -31,6 +31,7 @@ function TeamPage() {
                     setTeam={setTeam}
                     showStats={showStats}
              />
+             <PlayerForm />
 
             </div>
           )
