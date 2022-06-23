@@ -3,6 +3,7 @@ import React from "react";
 function TeamCard({ team, onTeamClicked }) {
     const {id, city, name, img} = team
     
+    console.log(img)
   
     return (
       <div className="ui column">

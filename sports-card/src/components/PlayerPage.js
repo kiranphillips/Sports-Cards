@@ -8,7 +8,7 @@ function PlayerPage() {
     useEffect(() => {
     
   
-        fetch('https://www.balldontlie.io/api/v1/players')
+        fetch('http://localhost:3000/data')
             .then(response => response.json())
             .then(response => setPlayers(response.data))
             // .catch(err => console.error(err));

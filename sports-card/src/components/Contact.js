@@ -18,9 +18,9 @@ const Contact = () => {
           <h3>github: https://github.com/TLNCook</h3>
           <h3>linkedin: https://www.linkedin.com/in/thomas-cook-118414239/</h3>
         <h2>Ikmann Bhullar</h2>
-          <h3>e-mail: </h3>
-          <h3>github: </h3>
-          <h3>linkedin: </h3>
+          <h3>e-mail: ikmann12@gmail.com</h3>
+          <h3>github:  https://github.com/Catchthembodies</h3>
+          <h3>linkedin: https://www.linkedin.com/in/ikmannbhullar/</h3>
       
     </div>
   );
