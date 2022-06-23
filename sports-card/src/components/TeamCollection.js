@@ -5,9 +5,9 @@ import TeamCard from "./TeamCard";
     const [image, setImage] = useState([])
     
     useEffect(() => { 
-      fetch('https://www.balldontlie.io/api/v1/teams')
+      fetch('http://localhost:3000/data')
           .then(response => response.json())
-          .then(response => setTeam(response.data)) 
+          .then(response => setTeam(response)) 
       }, [setTeam])
 
       useEffect(() => { 
