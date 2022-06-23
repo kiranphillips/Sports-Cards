@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div>
-      <NavBar setIsLoggedIn={setIsLoggedIn}/>
+      <NavBar isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn}/>
       <Header />
       <Routes>
         <Route path="/" element={<TeamPage isLoggedIn={isLoggedIn}/>} />
