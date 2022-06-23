@@ -41,18 +41,19 @@ body {
   overflow-x: scroll;
   min-height: 300px;
   max-width: 100%;
+  color:rgb(211, 192, 24)
 }
 
 .ui.grid > .row.bot-army-row {
   flex-wrap: nowrap;
   min-height: 100%;
-  color: gold
+  color: rgb(24, 229, 48)
 }
 
 .ui.grid {
-  padding: 0px 20px;
-  border-style: solid ;
-  border-color: orange;
+  padding: 20px 50px;
+  /* border-style: solid ; */
+  /* border-color: orange; */
 }
 
 
@@ -61,7 +62,7 @@ body {
   padding: 0px 10px;
   
 
-  border-style: double
+  /* border-style: double */
 }
 /* top header*/
 h1 {
@@ -70,14 +71,14 @@ h1 {
 
 
 .new-plant-form {
-  padding: 2rem 1rem;
-  background-color: antiquewhite;
+  padding: 5rem 2rem;
+  background-color: rgba(250, 235, 215, 0.603);
 }
 
 .new-plant-form form {
   display: center;
   justify-content: center;
-  color: antiquewhite;
+  color: rgb(5, 3, 1);
 }
 
 .new-plant-form input {
