@@ -9,6 +9,15 @@ body {
   -moz-osx-font-smoothing: grayscale;
   }
 
+  .logo {
+    width: 230px;
+    height: 127px;
+    
+    margin: 6px;
+    border-radius: 5%;
+
+  }
+
 .text-wrap {
   word-wrap: break-word;
 }
@@ -100,6 +109,7 @@ h3 {
 #nbaheading {
   text-align: center;
   color: white;
+  background-color: rgb(11, 11, 10);
   /* float: left; */
 }
 
