@@ -82,21 +82,35 @@ h3 {
 }
 
 #login {
-    background-image: url(https://i.cdn.turner.com/nba/nba/clippers/media/8-1024x768.jpg);
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/397/433/303/basketball-wallpaper-preview.jpg);
+    background-size: contain;
     align-content: center;
     text-align: center;
-    color: black;
-    padding-top: 500px;
+    padding-top: 450px;
     padding-bottom: 500px;
+    ;
   }
 
 #logincolor {
-  color: black;
+  color: white;
+
   font-size: 300%;
 }
 
-  
+#nbaheading {
+  text-align: center;
+  color: white;
+  float: left;
+}
 
+.title1 {
+  text-align: center;
+  color: white;
+  float: left;
+  font-size: 400%;
+  align-content: center
+  ;
+}
 
 
 .new-plant-form {
@@ -119,22 +133,23 @@ h3 {
   width: 150px;
 }
 
-.ui.header {
-
-  color: white;
-
-}
 
 .navbar {
-    padding:10px;  
+    padding-top:30px; 
+    padding-bottom: 60px; 
     background-color: rgba(133, 134, 124, 0.608);
     font-family: Arial, sans serif;
+   
+    background-image: url(https://i.cdn.turner.com/nba/nba/clippers/media/8-1024x768.jpg)
 
 }
 
 .navlink {  
     padding:10px;  
-    color:white;  
+    color: black;
+    font-size: 180%;
     text-decoration:none;
-
+    float: left;
 }
+
+

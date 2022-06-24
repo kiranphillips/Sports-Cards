@@ -299,8 +299,13 @@
       "full_name": "Washington Wizards",
       "name": "Wizards",
       "img": "https://upload.wikimedia.org/wikipedia/en/thumb/0/02/Washington_Wizards_logo.svg/1200px-Washington_Wizards_logo.svg.png"
+    },
+    {
+      "city": "Seattle",
+      "full_name": "SuperSonics",
+      "img": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Seattle_SuperSonics_logo.svg/800px-Seattle_SuperSonics_logo.svg.png",
+      "id": 31
     }
-    
   ],
   "meta": {
     "total_pages": 1,
