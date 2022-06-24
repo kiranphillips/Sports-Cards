@@ -6,21 +6,21 @@ const Contact = () => {
     <div id="contacts">
       <h1>Contact</h1>
         <h2>Kiran Phillips </h2>
-          <h3>e-mail: kiranphillips61@gmail.com</h3>
-          <h3>github: https://github.com/kiranphillips</h3>
-          <h3>linkedin: https://www.linkedin.com/in/kiran-phillips-925055b9/</h3>
+          <ul>e-mail: kiranphillips61@gmail.com</ul>
+          <ul>github: https://github.com/kiranphillips</ul>
+          <ul>linkedin: https://www.linkedin.com/in/kiran-phillips-925055b9/</ul>
         <h2>Shane Dorsey</h2>
-          <h3>e-mail:</h3>
-          <h3>github:</h3>
-          <h3>linkedin:</h3>
+          <ul>e-mail: scdorsey22@gmail.com</ul>
+          <ul>github: https://github.com/scdorsey22 </ul>
+          <ul>linkedin: https://www.linkedin.com/in/shanedorsey/</ul>
         <h2>Thomas Cook</h2>
-          <h3>e-mail: tlncook85@gmail.com</h3>
-          <h3>github: https://github.com/TLNCook</h3>
-          <h3>linkedin: https://www.linkedin.com/in/thomas-cook-118414239/</h3>
+          <ul>e-mail: tlncook85@gmail.com</ul>
+          <ul>github: https://github.com/TLNCook</ul>
+          <ul>linkedin: https://www.linkedin.com/in/thomas-cook-118414239/</ul>
         <h2>Ikmann Bhullar</h2>
-          <h3>e-mail: ikmann12@gmail.com</h3>
-          <h3>github:  https://github.com/Catchthembodies</h3>
-          <h3>linkedin: https://www.linkedin.com/in/ikmannbhullar/</h3>
+          <ul>e-mail: ikmann12@gmail.com</ul>
+          <ul>github:  https://github.com/Catchthembodies</ul>
+          <ul>linkedin: https://www.linkedin.com/in/ikmannbhullar/</ul>
       
     </div>
   );
