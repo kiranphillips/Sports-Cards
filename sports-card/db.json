@@ -8,7 +8,7 @@
       "division": "Southeast",
       "full_name": "Atlanta Hawks",
       "name": "Hawks",
-      "img": "https://en.wikipedia.org/wiki/Atlanta_Hawks"
+      "img": "https://upload.wikimedia.org/wikipedia/en/thumb/2/24/Atlanta_Hawks_logo.svg/1200px-Atlanta_Hawks_logo.svg.png"
     },
     {
       "id": 2,
@@ -58,7 +58,7 @@
       "division": "Central",
       "full_name": "Cleveland Cavaliers",
       "name": "Cavaliers",
-      "img": ""
+      "img": "https://cdn.bleacherreport.net/images/team_logos/328x328/cleveland_cavaliers.png"
     },
     {
       "id": 7,
@@ -118,7 +118,7 @@
       "division": "Central",
       "full_name": "Indiana Pacers",
       "name": "Pacers",
-      "img": ""
+      "img": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1b/Indiana_Pacers.svg/1200px-Indiana_Pacers.svg.png"
     },
     {
       "id": 13,
@@ -288,7 +288,7 @@
       "division": "Northwest",
       "full_name": "Utah Jazz",
       "name": "Jazz",
-      "img": ""
+      "img": "https://upload.wikimedia.org/wikipedia/en/thumb/0/04/Utah_Jazz_logo_%282016%29.svg/1200px-Utah_Jazz_logo_%282016%29.svg.png"
     },
     {
       "id": 30,
@@ -298,18 +298,18 @@
       "division": "Southeast",
       "full_name": "Washington Wizards",
       "name": "Wizards",
-      "img": "https://upload.wikimedia.org/wikipedia/en/thumb/0/04/Utah_Jazz_logo_%282016%29.svg/1200px-Utah_Jazz_logo_%282016%29.svg.png"
+      "img": "https://upload.wikimedia.org/wikipedia/en/thumb/0/02/Washington_Wizards_logo.svg/1200px-Washington_Wizards_logo.svg.png"
+    },
+    {
+      "city": "Seattle",
+      "full_name": "SuperSonics",
+      "img": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Seattle_SuperSonics_logo.svg/800px-Seattle_SuperSonics_logo.svg.png",
+      "id": 31
     },
     {
       "city": "Flint",
       "full_name": "Tropics",
-      "img": "https://cdn1.sportngin.com/attachments/photo/6492/4714/TRPTHNDR_-_Logo.jpg",
-      "id": 31
-    },
-    {
-      "city": "Santa Rosa",
-      "full_name": "Panthers",
-      "img": "https://www.santarosahighschool.net/images/panther-paw.png",
+      "img": "https://cdn1.sportngin.com/attachments/photo/3945/7381/TRPTHNDR_-_Logo.jpg",
       "id": 32
     }
   ],

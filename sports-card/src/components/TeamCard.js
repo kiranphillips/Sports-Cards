@@ -10,8 +10,8 @@ function TeamCard({ team, onTeamClicked }) {
           key={id}
           onClick={() => onTeamClicked(team)}
         >
-          <div className="image">
-            <img alt="nba!" src={img} />
+          <div className="logo">
+            <img className="logo" alt="nba!" src={img} />
           </div>
           <div className="content">
           </div>
