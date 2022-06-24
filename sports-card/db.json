@@ -305,6 +305,12 @@
       "full_name": "SuperSonics",
       "img": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Seattle_SuperSonics_logo.svg/800px-Seattle_SuperSonics_logo.svg.png",
       "id": 31
+    },
+    {
+      "city": "Flint",
+      "full_name": "Tropics",
+      "img": "https://cdn1.sportngin.com/attachments/photo/3945/7381/TRPTHNDR_-_Logo.jpg",
+      "id": 32
     }
   ],
   "meta": {
