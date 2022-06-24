@@ -12,7 +12,7 @@ const Contact = () => {
         <h2>Shane Dorsey</h2>
           <ul>e-mail: scdorsey22@gmail.com</ul>
           <ul>github: https://github.com/scdorsey22</ul>
-          <ul>linkedin: https://www.linkedin.com/in/shanedorsey/ </ul>
+          <ul>linkedin: https://www.linkedin.com/in/shanedorsey/</ul>
         <h2>Thomas Cook</h2>
           <ul>e-mail: tlncook85@gmail.com</ul>
           <ul>github: https://github.com/TLNCook</ul>
