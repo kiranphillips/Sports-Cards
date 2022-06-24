@@ -245,7 +245,7 @@ a:link {
 }
 
 a:visited {
-  color: turquoise;
+  color: rgb(245, 250, 249);
   background-color: transparent;
   text-decoration: none;
 }
