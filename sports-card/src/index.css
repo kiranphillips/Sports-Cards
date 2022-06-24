@@ -266,3 +266,29 @@ a:active {
   background-color: transparent;
   text-decoration: underline;
 }
+
+#aboutDiv {
+  color:black;
+  align-items: center;
+  font-size:32px;
+  border-style: solid;
+  background-image: url(https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fmedia.istockphoto.com%2Fphotos%2Fclose-up-view-of-a-basketball-court-with-wooden-floor-and-spotlights-picture-id1194196191%3Fk%3D20%26m%3D1194196191%26s%3D612x612%26w%3D0%26h%3DhUbzSqMqidVPDWDye7QFxPJSh-l8rk6W3rEsSKbaIO4%3D);
+  background-size: 100%;
+  align-content: center;
+  text-align: center;
+  padding-bottom: 500px;
+}
+#aboutInfo{
+  padding-top: 120px;
+  letter-spacing:2px;
+}
+
+
+#abouttitle{
+  color: black;
+  text-align: center;
+  font-size: 40px;
+  border-style: double;
+  text-shadow: 2px 2px black;
+  font-size: 50px;
+}
