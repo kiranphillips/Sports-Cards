@@ -1,6 +1,7 @@
 import React from "react";
 
 function About() {
+
     return (
 
       <div id="aboutDiv">
@@ -18,4 +19,4 @@ function About() {
     );
   }
 
-  export default About;
+export default About;
