@@ -57,7 +57,7 @@ function TeamForm({onAddTeam}) {
 
 
   return (
-    <div className="new-plant-form">
+    <div className="new-team-form">
       <h3>Add a New NBA Team!</h3>
       <Form
         onSubmit={handleSubmit}
