@@ -47,7 +47,7 @@ function PlayerForm({ teams, onAddPlayer }) {
     }
 
   return (
-    <div className="new-plant-form">
+    <div className="new-team-form">
       <h3>Add a Player!</h3>
       <Form onSubmit= {handleSubmit}>
         <Form.Group widths="equal">
@@ -63,7 +63,7 @@ function PlayerForm({ teams, onAddPlayer }) {
             label="Team"
             name="team"
             // options={teamOptions}
-            placeholder="team"
+            placeholder="Team"
             value={formData.team}
             onChange={handleChange}
     
