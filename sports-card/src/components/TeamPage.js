@@ -18,36 +18,36 @@ function TeamPage( {isLoggedIn}) {
 
     if(!isLoggedIn) return <Navigate to="/.Login" />
   
-        function addMyTeam(teamClicked) {
-            const isInList = myTeams.some((team) => team.id === teamClicked.id);
-            if (!isInList) {
-                setMyTeams([teamClicked]);
-            }
-
-        }
-        function removeMyTeam(teamToRemove) {
-            setMyTeams((currentTeams) => currentTeams.filter((team) => team.id !== teamToRemove.id));
+    function addMyTeam(teamClicked) {
+        const isInList = myTeams.some((team) => team.id === teamClicked.id);
+        if (!isInList) {
+            setMyTeams([teamClicked]);
         }
 
-        function handleAddTeam(newTeam) {
-            setTeam([...teams, newTeam]);
-          }
+    }
+    function removeMyTeam(teamToRemove) {
+        setMyTeams((currentTeams) => currentTeams.filter((team) => team.id !== teamToRemove.id));
+    }
 
-        return (
-            <div>
-                <YourTeams 
-                    myTeams={myTeams}
-                    removeMyTeam={removeMyTeam}
+    function handleAddTeam(newTeam) {
+        setTeam([...teams, newTeam]);
+        }
 
-                />
-                <TeamCollection
-                    teams={teams} 
-                    addMyTeam={addMyTeam}
-             />
-             <TeamForm onAddTeam={handleAddTeam}/>
+    return (
+        <div>
+            <YourTeams 
+                myTeams={myTeams}
+                removeMyTeam={removeMyTeam}
 
-            </div>
-          )
+            />
+            <TeamCollection
+                teams={teams} 
+                addMyTeam={addMyTeam}
+            />
+            <TeamForm onAddTeam={handleAddTeam}/>
+
+        </div>
+        )
         
 
 }
