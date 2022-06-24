@@ -46,7 +46,7 @@ body {
 .ui.grid > .row.bot-army-row {
   flex-wrap: nowrap;
   min-height: 100%;
-  color: rgb(24, 229, 48)
+  color: rgb(12, 12, 12)
 }
 
 .ui.grid {
