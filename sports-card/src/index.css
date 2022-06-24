@@ -30,14 +30,14 @@ body {
 }
 
 
-.bot-army {
+.my-team {
   overflow-x: scroll;
   min-height: 300px;
   max-width: 100%;
   color:rgb(211, 192, 24)
 }
 
-.ui.grid > .row.bot-army-row {
+.ui.grid > .row.my-team-row {
   flex-wrap: nowrap;
   min-height: 100%;
   color: rgb(12, 12, 12)
@@ -120,28 +120,28 @@ h2 {
 }
 
 
-.new-plant-form {
+.new-team-form {
   padding: 5rem 2rem;
   background-color: rgba(250, 235, 215, 0.603);
 }
 
-.new-plant-form form {
+.new-team-form form {
   display: center;
   justify-content: center;
   color: rgb(5, 3, 1);
 }
 
-.new-plant-form input {
+.new-team-form input {
   margin-right: 10rem;
   flex: 1;
 }
 
-.new-plant-form select {
+.new-team-form select {
   margin-right: 10rem;
   flex: 1;
 }
 
-.new-plant-form button {
+.new-team-form button {
   width: 150px;
 }
 

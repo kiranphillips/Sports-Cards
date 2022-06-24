@@ -12,10 +12,10 @@ function YourTeams({ myTeams, removeMyTeam }) {
 
   
   return (
-    <div className="ui segment inverted white bot-army">
+    <div className="ui segment inverted white my-team">
       <div class="myTeamHeading">My Team</div>
       <div className="ui two column grid">
-        <div className="row bot-army-row">
+        <div className="row my-team-row">
           {renderTeams}
         </div>
       </div>
