@@ -13,7 +13,7 @@ function YourTeams({ myTeams, removeMyTeam }) {
   
   return (
     <div className="ui segment inverted white bot-army">
-      My Team
+      <div class="myTeamHeading">My Team</div>
       <div className="ui two column grid">
         <div className="row bot-army-row">
           {renderTeams}

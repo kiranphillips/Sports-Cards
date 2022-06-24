@@ -6,22 +6,21 @@ const Contact = () => {
     <div id="contacts">
       <h1>Contact</h1>
         <h2>Kiran Phillips </h2>
-          <ul><a href="mailto: kiranphillips61@gmail.com">kiranphillips61@gmail.com</a></ul>
-          <ul><a href="https://github.com/kiranphillips">github</a></ul>
-          <ul><a href="https://www.linkedin.com/in/kiran-phillips-925055b9/">linkedin</a></ul>
+          <div><a href="mailto: kiranphillips61@gmail.com">kiranphillips61@gmail.com</a></div>
+          <div><a href="https://github.com/kiranphillips">github</a></div>
+          <div><a href="https://www.linkedin.com/in/kiran-phillips-925055b9/">linkedin</a></div>
         <h2>Shane Dorsey</h2>
-          <ul>e-mail: scdorsey22@gmail.com</ul>
-          <ul>github: https://github.com/scdorsey22</ul>
-          <ul>linkedin: https://www.linkedin.com/in/shanedorsey/</ul>
+          <div><a href="mailto: scdorsey22@gmail.com">scdorsey22@gmail.com</a></div>
+          <div><a href="https://github.com/scdorsey22">github</a></div>
+          <div><a href="https://www.linkedin.com/in/shanedorsey/">linkedin</a></div>
         <h2>Thomas Cook</h2>
-          <ul>e-mail: tlncook85@gmail.com</ul>
-          <ul>github: https://github.com/TLNCook</ul>
-          <ul>linkedin: https://www.linkedin.com/in/thomas-cook-118414239/</ul>
+          <div><a href="mailto: tlncook85@gmail.com">tlncook85@gmail.com</a></div>
+          <div><a href="https://github.com/TLNCook">github</a></div>
+          <div><a href="https://www.linkedin.com/in/thomas-cook-118414239/">linkedin</a></div>
         <h2>Ikmann Bhullar</h2>
-          <ul>e-mail: ikmann12@gmail.com</ul>
-          <ul>github:  https://github.com/Catchthembodies</ul>
-          <ul>linkedin: https://www.linkedin.com/in/ikmannbhullar/</ul>
-      
+          <div><a href="mailto: ikmann12@gmail.com">ikmann12@gmail.com</a></div>
+          <div><a href="https://github.com/Catchthembodies">github</a></div>
+          <div><a href="https://www.linkedin.com/in/ikmannbhullar/">linkedin</a></div>
     </div>
   );
 };
