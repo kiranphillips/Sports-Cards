@@ -4,10 +4,10 @@ function Header () {
 
     return (
         <div id="nbaheading">
-            <h2 className="title1">
+            <h1 className="title1">
                 <i className="title2" ></i>
             NBA Teams
-            </h2>
+            </h1>
     </div>
     )
 }
