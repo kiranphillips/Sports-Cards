@@ -1,10 +1,10 @@
 import React from "react";
 
-function MyTeamCard({ team }) {
+function MyTeamCard({ team, onTeamClicked }) {
     const {id, city, abbreviation, full_name, img, conference} = team
   
     return (
-      <div id="teamCard" class="flip-card">
+      <div id="teamCard" class="flip-card" onClick={() => onTeamClicked(team)}>
         <div class="flip-card-inner" key={id}>
             <div class="flip-card-front">
                 <img className="logo" alt="nba!" src={img} />
