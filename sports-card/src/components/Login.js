@@ -34,23 +34,35 @@ function Login({ setIsLoggedIn }) {
 
   return (
     <div id="login">
-    <form onSubmit={handleSubmit}>
+    <form widths="equal" onSubmit={handleSubmit}>
      
-      <h1 id="logincolor"> Login</h1>
-      <input
-        type="text"
-        name="username"
-        fluid label="username"
-        value={formData.username}
-        onChange={handleChange}
-      />
-      <input
-        type="dob"
-        name="dob"
-        value={formData.dob}
-        onChange={handleChange}
-      />
-      <button type="submit">Login</button>
+      <h3 id="logincolor"> Login</h3>
+      <div className="mb-3">
+        {/* <label className="label">Username</label> */}
+        <input
+            className="input"
+            type="text"
+            name="username"
+            placeholder="Username"
+            fluid label="username"
+            value={formData.username}
+            onChange={handleChange}
+        />
+      </div>
+      <div className="mb-3">
+        {/* <label className="label">Password</label> */}
+        <input
+            className="input"
+            type="dob"
+            name="dob"
+            placeholder="Password"
+            value={formData.dob}
+            onChange={handleChange}
+        />
+      </div>
+      <div className="d-grid">
+        <button className="ui button" type="submit">Login</button>
+      </div>
     </form>
   </div>
   );
